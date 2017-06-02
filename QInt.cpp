@@ -1,6 +1,6 @@
 ﻿/*
 * Lớp số nguyên lớn được xây dụng cới dữ liệu được lưu theo Little Endian.
-* Có thể dễ dàng mở rộng chương trình vo số nguyên lớn 32, 64, 128 bytes,...
+* Có thể dễ dàng mở rộng chương trình với số nguyên lớn 32, 64, 128 bytes,...
 * Dễ dàng trong việc bảo trì và nâng cấp chương trình.
 */
 
@@ -312,7 +312,7 @@ CQInt& CQInt::RoL()
 	return *this;
 }
 
-//Phép toán xoay trái.
+//Phép toán xoay phải.
 CQInt& CQInt::RoR()
 {
 	//Lưu bit bị đẩy ra ngoài.
